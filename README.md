@@ -1,13 +1,7 @@
 # Tooltip for Angular
-
-[![Build Status](https://travis-ci.org/drozhzhin-n-e/ng2-tooltip-directive.svg?branch=master)](https://travis-ci.org/drozhzhin-n-e/ng2-tooltip-directive) <img src="https://badgen.net/bundlephobia/min/ng2-tooltip-directive" />
+### forked from drozhzhin-n-e/ng2-tooltip-directive
 
 The tooltip is a pop-up tip that appears when you hover over an item or click on it.
-
-🔬️ Help make Tooltips better by [answering a few questions](https://docs.google.com/forms/d/e/1FAIpQLSfuDYQLyGWLApEtnQH5wD2_HNjEM7lV_XJAhrQZEPm14mBZ-A/viewform).
-
-## Demo
-http://ivylab.space/tooltip
 
 ## Installation
 
@@ -130,13 +124,3 @@ If you specified the directive options, they will be taken into account when cal
 |------------------|---------------------------------------------------------------------------------------------|
 | show()           | Shows the tooltip                                                                           |
 | hide()           | Hides the tooltip                                                                           |
-
-## Author services
-
-Are you interested in this library but lacks features? [Write to the author](https://github.com/drozhzhin-n-e), he can do it for you.
-
-## Sponsors
-
-We use Browserstack for cross-browser testing.
-
-[![Browserstack](http://ivylab.space/assets/img/browserstack-logo.png)](http://browserstack.com/)
