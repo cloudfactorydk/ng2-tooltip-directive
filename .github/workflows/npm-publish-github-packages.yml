@@ -21,7 +21,9 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm install
       - run: npm run build:ng2-tooltip-directive
-      - run: cd ./dist/ng2-tooltip-directive
-      - run: npm publish
+      - name: npm publish
+        run: |
+             cd ./dist/ng2-tooltip-directive
+             npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
