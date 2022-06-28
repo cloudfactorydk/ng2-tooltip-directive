@@ -18,6 +18,9 @@
     "tooltip",
     "popover"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://cloudfactory.dk",
   "license": "MIT",
   "bugs": {
