@@ -1,5 +1,5 @@
 {
-  "name": "ng2-tooltip-directive",
+  "name": "@cloudfactorydk/ng2-tooltip-directive",
   "version": "14.0.3",
   "description": "Tooltip for Angular",
   "repository": {

@@ -1,5 +1,5 @@
 {
-  "name": "tooltip-ng12-app",
+  "name": "@cloudfactorydk/tooltip-ng12-app",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
