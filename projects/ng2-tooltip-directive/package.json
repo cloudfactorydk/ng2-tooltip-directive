@@ -1,6 +1,6 @@
 {
   "name": "@cloudfactorydk/ng2-tooltip-directive",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "description": "Tooltip for Angular",
   "repository": {
     "type": "git",
@@ -27,8 +27,8 @@
     "url": "https://github.com/cloudfactorydk/ng2-tooltip-directive/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^16.0.2",
-    "@angular/core": "^16.0.2"
+    "@angular/common": "^17.0.2",
+    "@angular/core": "^17.0.2"
   },
   "dependencies": {
     "tslib": "^2.0.0"
