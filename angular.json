@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tooltipNg12App:build:production"
+              "buildTarget": "tooltipNg12App:build:production"
             },
             "development": {
-              "browserTarget": "tooltipNg12App:build:development"
+              "buildTarget": "tooltipNg12App:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tooltipNg12App:build"
+            "buildTarget": "tooltipNg12App:build"
           }
         },
         "test": {

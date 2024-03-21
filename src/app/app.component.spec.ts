@@ -21,9 +21,8 @@ describe('AppComponent', () => {
   });
 
   it(`should have as title 'tooltipNg12App'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('tooltipNg12App');
+    TestBed.createComponent(AppComponent);
+    expect(document.title).toEqual('tooltipNg12App');
   });
 
   it('should render title', () => {
